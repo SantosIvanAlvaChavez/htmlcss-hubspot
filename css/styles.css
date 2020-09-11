@@ -6,7 +6,159 @@
 }
 
 body {
+  color: #33475b;
+  background: #f5f8fa;
   font-family: sans-serif;
+  width: 1500px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.main-container {
+  width: 70%;
+  margin: auto;
 }
 
 /* HEADER */
+
+/* TOP-NAVIGATION */
+.top-navigation {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-bottom: 2px solid #33475b;
+}
+
+.top-navigation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.language {
+  width: 50%;
+  float: left;
+}
+
+.language .lang-1 {
+  border-right: 2px solid;
+  padding-right: 20px;
+}
+
+.language .lang-2 {
+  padding-left: 20px;
+}
+
+.group-buttons {
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin:-5px 0 13px;
+}
+
+.group-buttons .icon {
+  margin: 0 10px 0;
+}
+
+.group-buttons .icon {
+  color: #45c8dd;
+  font-size: 13px;
+}
+
+button[type="button"] {
+  margin: 0 1px 0 13px;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #FF7A59;
+  background-color: #FF7A59;
+  color: #fff;
+}
+
+.group-buttons .button-1 {
+  background-color: #fff;
+  color: #FF7A59;
+}
+
+/* MENU-NAVIGATION */
+
+.menu-navigation {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 0 20px;
+}
+
+.menu-navigation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo-web {
+  width: 49%;
+  float:left;
+}
+
+.main-nav {
+  text-align: right;
+  width: 51%;
+  float:right;
+  margin-top: 5px;
+}
+
+.main-nav .menu li {
+  display: inline-block;
+  margin: 0 1px 0 27px;;
+}
+
+.main-nav .menu li a {
+  color: #33475b;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+/* DESCRIPTION-NAVIGATION */
+
+.description-navigation{
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  height: 700px;
+  max-height: 100%;
+  position: relative;
+}
+
+.title-navigation {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.text-title1 {
+  margin-bottom: 25px;
+}
+
+.title-navigation .button-3 {
+ padding: 15px;
+ margin-left: 0;
+ margin-bottom: 25px;
+}
+
+.title-navigation .text-title2 {
+  font-size: 10px;
+}
+
+.fake {
+  background-color: #7bded2;
+  width: 100%;
+  height: 50px;
+  border-top: 7px solid #33475b;
+  border-bottom: 7px solid #33475b;
+}
