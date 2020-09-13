@@ -416,6 +416,7 @@ button[class="button-2"] {
 .companies {
   width: 100%;
   height: 600px;
+  margin-bottom: 25px;
 }
 
 .companies .main-container::after {
@@ -498,3 +499,103 @@ button[class="button-2"] {
   right: 0;
   top: 0px;
 }
+
+/* FOOTER */
+
+.start-footer {
+  color: #f5f8fa;
+  background: #33475b;
+  width: 100%;
+  height: 490px;
+  padding: 20px 0;
+}
+
+.main-container .top-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-footer .list {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.top-footer .list p {
+  margin: 10px 0;
+}
+
+.top-footer .list ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.top-footer .list ul li a {
+  color: #f5f8fa;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.top-footer .list ul li button {
+  color: #33475b;
+  background: #f5f8fa;
+  font-size: 12px;
+  margin: 12px 0 12px 0;
+  border-color: #f5f8fa;
+}
+
+.footer-social ul li{
+  display:inline-block;
+}
+
+.footer-social ul li a i{
+  font-size: 15px;
+  margin-right: 14px;
+}
+
+.main-container .languages-footer {
+  text-align: center;
+  border-bottom: 1px solid #f5f8fa;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+.main-container .languages-footer ul li {
+  display:inline-block;
+}
+
+.main-container .languages-footer ul li a{
+  color: #f5f8fa;
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.main-container .info-footer {
+  padding: 30px 0;
+}
+
+.main-container .info-footer::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.info-footer .logo-footer {
+  float: left;
+}
+
+.info-footer .privacy-footer {
+  float: right;
+}
+
+.info-footer .privacy-footer ul li {
+  display:inline-block;
+  }
+
+  .info-footer .privacy-footer ul li a {
+    color: #f5f8fa;
+    text-decoration: none;
+    margin-left: 20px;
+  }
